@@ -216,3 +216,17 @@ width: 640px;
     top: 28%;
    }
 }
+/* PURE,
+DISTRACTION-FREE DESIGN */
+.pure-title-container{
+    background-size: 357px 130px;
+}
+.pure-text{
+    margin-top: 48px;
+}
+@media only screen and (min-width: 1440px) {
+.pure-title-container {
+        background-size: 1216px 85px;
+        margin-bottom: 24px;
+    }
+}
