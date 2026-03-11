@@ -183,11 +183,36 @@ font-family: "Agdasima", sans-serif;
     top: 4%;
   }
   .handcrafted-list{
-    margin-top: 0;
+    margin-top: 24px;
     margin-bottom: 24px;
     font-size: 25px;
   }
   .handcrafted-last-text{
 width: 640px;
   }
+}
+/* GROWING COMPLEXITY */
+.growing-title-container{
+    background-size: 335px 92px;
+}
+.growing-img{
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+@media only screen and (min-width: 1440px) {
+   .growing-title-container{
+    background-size: 864px 85px;
+    margin-bottom: 24px;
+   }
+   .growing-container{
+    position: relative;
+   }
+   .growing-text{
+    margin-top: 64px;
+   }
+   .growing-img{
+    position: absolute;
+    right: 12%;
+    top: 28%;
+   }
 }
