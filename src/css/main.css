@@ -131,9 +131,63 @@ font-family: "Agdasima", sans-serif;
   .how-list{
     width: 544px;
     margin-left: 480px;
+    font-size: 25px;
   }
   .how-text-two{
     width: 469px;
     margin-left: 380px;
+  }
+}
+/* HANDCRAFTED LEVELS */
+.handcrafted-title-container{
+    background-size: 369px 92px;
+    position: relative;
+}
+.handcrafted-list{
+    display: flex;
+        flex-direction: column;
+        gap: 4px;
+        list-style-type: square;
+        padding-left: 20px;
+        color: #023f7e;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        align-items: start;
+}
+.handcrafted-text{
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+.handcrafted-img{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+@media only screen and (min-width: 1440px) {
+  .handcrafted-title-container{
+    background-size: 896px 85px;
+    
+  }
+  .handcrafted-container{
+  position: relative;  
+  }
+  .handcrafted-subtitle{
+    margin-top: 64px;
+  }
+  .handcrafted-text{
+    width: 640px;
+    margin-bottom: 24px;
+  }
+  .handcrafted-img{
+    position: absolute;
+    right: 10%;
+    top: 4%;
+  }
+  .handcrafted-list{
+    margin-top: 0;
+    margin-bottom: 24px;
+    font-size: 25px;
+  }
+  .handcrafted-last-text{
+width: 640px;
   }
 }
