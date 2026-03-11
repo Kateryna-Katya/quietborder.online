@@ -74,3 +74,66 @@ font-family: "Agdasima", sans-serif;
     right: 14%;
   }
 }
+/* HOW IT WORKS */
+.title-container{
+    background-image: url("/img/mob.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 361px 54px;
+}
+.how-list{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;    
+    list-style-type: square;
+    padding-left: 20px;
+    color: #023f7e;
+        margin-top: 16px;
+            margin-bottom: 16px;
+            align-items: start;
+}
+.how-item{
+    padding-left: 10px;
+}
+.how-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.how-img{
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+@media only screen and (min-width: 1440px) {
+  .title-container{
+    background-image: url("/img/desk.png");
+    background-size: 640px 85px;
+  }
+  .how-container{
+    position: relative;
+  }
+  .how-subtitle{
+    margin-left: 300px;
+    margin-bottom: 64px;
+  }
+  .how-img{
+    position: absolute;
+    left: 12%;
+    margin-top: 0;
+    margin-top: 0;
+    top: 24%;
+  }
+  .how-text{
+    margin-left: 290px;
+    width: 374px;
+  }
+  .how-list{
+    width: 544px;
+    margin-left: 480px;
+  }
+  .how-text-two{
+    width: 469px;
+    margin-left: 380px;
+  }
+}
