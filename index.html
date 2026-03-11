@@ -2,55 +2,64 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/test/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/test/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/test/assets/styles-X9THPhCB.css">
+      <link rel="icon" type="image/png" href="/quietborder.online/favicon.png" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bruno+Ace&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+          rel="stylesheet">
+<title>Border Bound – Elegant Logic Grid Puzzle Game</title>
+<meta name="description"
+  content="Border Bound is a handcrafted logic puzzle game where you fill every box with its border color using strategic tile interactions. Over 100 thoughtful levels.">
+<meta name="keywords"
+  content="logic puzzle game, grid puzzle app, strategic puzzle game, border bound, minimalist brain game">
+<meta property="og:title" content="Border Bound">
+<meta property="og:description" content="Fill every box with the color of its border in this elegant logic challenge.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://quietborder.online">
+<meta property="og:image" content="https://quietborder.online/preview.jpg">
+
+    <script type="module" crossorigin src="/quietborder.online/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/quietborder.online/assets/styles-6RCp8EyT.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="{=$icon-path}"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
+    
 
     <main>
       <!-- Loads the specified .html file -->
-      
+      <section class="home-section" id="home">
+    <div class="container home-container">
+        <div class="hero-wrapper">
+        <h1 class="home-title">BORDER
+        BOUND</h1>
+        <h2 class="home-subtitle">Easy to Learn. Hard to Master.
+</h2>
+<p class="home-text">So we had this ridiculously simple idea for Border Bound that somehow turns your brain inside out (in a good way, I
+promise).<br/>
+Fill every box on the grid with the color of its border.<br />
+Special boxes introduce new ways to manipulate color across the board — spreading, redirecting, and transforming tiles
+in ways that require careful planning and precise thinking.<br />
+There are no timers.<br />
+No distractions.<br />
+Just pure logic and elegant design.</p>
+<a class="home-link" href="https://play.google.com/store/games?hl=en">
+    <img src="data:image/png;base64,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" alt="Google Play" loading="lazy">
+</a>
+<p class="home-last-text">Plan carefully. Think deeply. Master the grid.</p>
+</div>
+<div class="hero-img-wrapper">
+    <img src="data:image/png;base64,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" alt="red" loading="lazy">
+    <img src="data:image/png;base64,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" alt="blue" loading="lazy">
+</div>
+    </div>
+</section>
     </main>
 
-    <footer class="footer">
-  <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
-  </div>
-</footer>
-
+    
 
   </body>
 </html>
