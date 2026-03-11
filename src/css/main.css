@@ -230,3 +230,38 @@ DISTRACTION-FREE DESIGN */
         margin-bottom: 24px;
     }
 }
+/* A GAME FOR EVERY TYPE */
+.game-text{
+    margin-top: 48px;
+    margin-bottom: 16px;
+    font-size: 21px;
+}
+.game-list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.game-second-item-text{
+    font-size: 21px;
+}
+@media only screen and (min-width: 1440px) {
+.game-title-container{
+    background-size: 1300px 85px;
+}
+.mob{
+    display: none;
+}
+.game-text{
+    font-size: 25px;
+}
+.game-list{
+    flex-direction: row;
+    gap: 32px;
+}
+.game-item{
+    width: 544px;
+}
+.game-second-item-text{
+    font-size: 25px;
+}
+}
