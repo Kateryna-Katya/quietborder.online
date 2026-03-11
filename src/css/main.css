@@ -150,6 +150,7 @@ font-family: "Agdasima", sans-serif;
         list-style-type: square;
         padding-left: 20px;
         color: #023f7e;
+        font-size: 21px;
         margin-top: 16px;
         margin-bottom: 16px;
         align-items: start;
@@ -264,4 +265,22 @@ DISTRACTION-FREE DESIGN */
 .game-second-item-text{
     font-size: 25px;
 }
+}
+/* WHY BORDER BOUND STANDS OUT */
+.why-img{
+    display: none;
+}
+.why-text{
+    margin-top: 48px;
+}
+@media only screen and (min-width: 1440px) {
+ .why-container{
+    position: relative;
+ }
+ .why-img{
+    display: block;
+    position: absolute;
+    bottom: 20%;
+    right: 22%;
+ }
 }
