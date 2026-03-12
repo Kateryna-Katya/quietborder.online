@@ -1,0 +1,85 @@
+@import url('./styles.css');
+
+.background {
+    background: #e6e6e6;
+font-family: "Agdasima", sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.privacy-title {
+font-family: "Bruno Ace", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.2;
+    color: #000;
+    margin-top: 90px;
+    margin-bottom: 30px;
+
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+font-family: "Agdasima", sans-serif;
+    font-size: 28px;
+    line-height: 1.3;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.policy-link {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 30px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.policy-span {
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 1439px) {
+    .background {
+        font-size: 24px;
+    }
+
+    .privacy-title {
+        font-size: 60px;
+    }
+
+    .policy-subtitle {
+        font-size: 24px;
+    }
+
+    .policy-container {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+}
