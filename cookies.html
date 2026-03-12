@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="/quietborder.online/favicon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Albert+Sans:ital,wght@0,100..900;1,100..900&family=Bruno+Ace&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <title>Border Bound – Elegant Logic Grid Puzzle Game</title>
+  <meta name="description"
+    content="Border Bound is a handcrafted logic puzzle game where you fill every box with its border color using strategic tile interactions. Over 100 thoughtful levels.">
+  <meta name="keywords"
+    content="logic puzzle game, grid puzzle app, strategic puzzle game, border bound, minimalist brain game">
+  <meta property="og:title" content="Border Bound">
+  <meta property="og:description"
+    content="Fill every box with the color of its border in this elegant logic challenge.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://quietborder.online">
+  <meta property="og:image" content="https://quietborder.online/preview.jpg">
+
+  <script type="module" crossorigin src="/quietborder.online/assets/vendor-HTdmVadK.js"></script>
+  <script type="module" crossorigin src="/quietborder.online/assets/main-DjwWrM7c.js"></script>
+  <link rel="stylesheet" crossorigin href="/quietborder.online/assets/vendor-vL0Q9Dr-.css">
+  <link rel="stylesheet" crossorigin href="/quietborder.online/assets/privacy-kYIMCGBj.css">
+</head>
+  <body>
+    <header class="header" id="site-header">
+    <div class="header-container container">
+        <a class="header-logo" href="./#home">
+            <img src="data:image/png;base64,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" alt="Puzzle" loading="lazy">
+        </a>
+        <button type="button" class="menu-button" aria-label="menu toggle">
+            <span class="icon">
+<svg width="26" height="18" viewBox="0 0 26 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M25 17L1 17" stroke="white" stroke-width="2" stroke-linecap="round" />
+    <path d="M25 9L1 9" stroke="white" stroke-width="2" stroke-linecap="round" />
+    <path d="M25 1L1 1" stroke="white" stroke-width="2" stroke-linecap="round" />
+</svg>
+            </span>
+        </button>
+
+        <nav class="nav ">
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a class="links" href="./#home">Home</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#how">How It Works</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#handcrafted">Mechanics</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#growing">Levels</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#pure">Features</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#faq">FAQ</a>
+                </li>
+                <li class="navigation-item">
+                    <a class="links" href="./#final">Download</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+    <ul class="menu-list">
+        <li class="menu-item"><a class="menu-list-item" href="./#home">Home</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#how">How It Works</a></li>
+        <li class="menu-item"><a class="menu-list-item" href="./#growing">Levels</a></li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#growing">Levels</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#pure">Features</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#faq">FAQ</a>
+        </li>
+        <li class="menu-item">
+            <a class="menu-list-item" href="./#final">Download</a>
+        </li>
+    </ul>
+</div>
+
+<main class="background">
+  <div class="container policy-container">
+    <h2 class="privacy-title" data-text="Cookies Policy">Cookies Policy</h2>
+    <p>Last Updated: 2026-02-17</p>
+    <p>This Cookies Policy explains what cookies are and how we use them. You should read this policy to understand what
+      types
+      of cookies we use, what data they collect, and how you can manage your preferences.<br />
+      Cookies do not typically contain personally identifiable information. However, in some cases, personal data that
+      we
+      store about you may be linked to information obtained from cookies. For more details, see our <a class="underline"
+        href="privacy.html">Privacy Policy. </a> </p>
+    <h3 class="policy-subtitle">1. What Are Cookies?</h3>
+    <p>Cookies are small text files stored on your device when you visit a website. They help websites function
+      properly,
+      remember preferences, and collect analytical data. </p>
+    <h3 class="policy-subtitle">2. How We Use Cookies</h3>
+    <p>We use cookies to:</p>
+    <ul class="policy-list">
+      <li>Ensure the website functions correctly.</li>
+      <li>Analyze user behavior and improve website performance.</li>
+      <li>Personalize your experience and remember preferences.</li>
+    </ul>
+    <h3 class="policy-subtitle">3. Types of Cookies We Use</h3>
+    <p>Cookies can be "session" or "persistent." Session cookies expire when you close your browser, while persistent
+      cookies
+      remain stored until manually deleted or they reach expiration. </p>
+    <ul class="policy-list">
+      <li>Necessary Cookies <br />
+        Type: Session Cookies<br />
+        Purpose: Required for core website functions and security.</li>
+      <li>Functional Cookies<br />
+        Type: Persistent Cookies<br />
+        Purpose: Remember user preferences (e.g., language, login details). </li>
+      <li>Analytics Cookies<br />
+        Type: Persistent Cookies<br />
+        Purpose: Track user behavior and website performance using Google Analytics.</li>
+      <li>Advertising Cookies<br />
+        Type: Persistent Cookies</li>
+    </ul>
+    <p>Purpose: Show relevant ads based on your browsing behavior.</p>
+    <h3 class="policy-subtitle">4. Managing Cookies</h3>
+    <p>You can manage your cookie preferences through your browser settings. If you disable cookies, some features of
+      the
+      website may not function properly. </p>
+    <ul class="policy-list underline">
+      <li><a href="https://support.google.com/accounts/answer/32050">Manage cookies in Chrome </a></li>
+      <li><a
+          href="https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox?redirectslug=delete-cookies-remove-info-websites-stored&redirectlocale=en-US">Manage
+          cookies in Firefox </a></li>
+      <li><a
+          href="https://support.microsoft.com/uk-ua/topic/%D0%B2%D0%B8%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F-%D1%84%D0%B0%D0%B9%D0%BB%D1%96%D0%B2-cookie-%D0%B2-%D0%B1%D1%80%D0%B0%D1%83%D0%B7%D0%B5%D1%80%D1%96-internet-explorer-bca9446f-d873-78de-77ba-d42645fa52fc">Manage
+          cookies in Internet Explorer </a></li>
+      <li><a href="https://support.apple.com/uk-ua/guide/safari/sfri11471/mac">Manage cookies in Safari </a></li>
+    </ul>
+    <h3 class="policy-subtitle">5. Third-Party Cookies</h3>
+    <p>Some third-party services (e.g., Google Analytics, advertising networks) may use cookies to collect information.
+      These
+      cookies are subject to their own privacy policies. </p>
+    <h3 class="policy-subtitle">6. Changes to This Policy</h3>
+    <p>We may update this Cookies Policy periodically. Significant changes will be communicated via the website. </p>
+    <h3 class="policy-subtitle">7. Contact Us</h3>
+    <p>If you have any questions about this Cookies Policy, you can contact us at <a class="mail-link"
+        href="mailto:info@quietborder.online">info@quietborder.online</a></p>
+  </div>
+</main>
+
+
+    <footer class="footer">
+    <div class="container footer-container">
+        <div class="footer-wrapper">
+            <div class="footer-title-wrapper">
+                <h2 class="footer-title">Border Bound
+</h2>
+<p class="footer-text-one">A thoughtfully designed logic puzzle built for clarity, depth, and strategic mastery.</p>
+            </div>
+        <ul class="footer-list">
+            <li class="footer-item">
+                <a class="footer-item-links" href="./#home">Home</a>
+            </li>
+            <li class="footer-item">
+                <a class="footer-item-links" href="./#how">How It Works
+</a>
+            </li>
+            <li class="footer-item">
+                <a class="footer-item-links" href="./#growing">Levels
+</a>
+            </li>
+            <li class="footer-item">
+                <a class="footer-item-links" href="./#growing">Levels
+</a>
+            </li>
+            <li class="footer-item">
+                <a class="footer-item-links" href="./#pure">Features
+</a>
+            </li>
+            <li class="footer-item">
+                <a class="footer-item-links" href="./#faq">FAQ</a>
+            </li>
+            <li class="footer-item">
+                <a class="footer-item-links" href="./#final">Download</a>
+            </li>
+        </ul>
+            <ul class="footer-navigation">
+                <li class="footer-link">
+                    <a class="footer-underline" href="privacy.html">Privacy Policy
+                    </a>
+                 </li>
+                <li class="footer-link">
+                    <a class="footer-underline" href="terms.html">Terms and Conditions
+                    </a>
+                    </li>
+                <li class="footer-link">
+                    <a class="footer-underline" href="cookies.html">Cookies Policy</a>
+                </li>
+            </ul>
+        </div>
+        <p class="footer-text">© 2026 — All rights reserved. quietborder.online</p>
+    </div>
+</footer>
+<div id="cookie-popup" class="cookie-popup">
+    <div class="popup-wrapper">
+        <p class="cookie-class">We use cookies to improve your experience on our website. By browsing this website, you agree to our use of cookies.</p>
+
+        <div class="cookie-buttons">
+            <button id="accept-cookies" class="btn-accept">Accept Cookies</button>
+            <button id="decline-cookies" class="btn-decline">Decline Cookies</button>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
